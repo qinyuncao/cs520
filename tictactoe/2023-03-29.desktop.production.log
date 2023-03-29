@@ -1,0 +1,23 @@
+2023-03-29T00:01:15.493Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 6 repositories took 1.5s of which 0.0s paused, total 1.5s
+2023-03-29T00:01:38.661Z - info: [main] Received possible protocol arguments: 4
+2023-03-29T00:01:38.664Z - info: [main] Processing protocol url
+2023-03-29T00:01:39.897Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/LASER-UMASS/cs520.git - qinyuncao (has token)
+2023-03-29T00:01:41.431Z - info: [ui] Executing clone: git -c credential.helper= -c init.defaultBranch=master clone --recursive --progress -- https://github.com/LASER-UMASS/cs520.git C:\Users\qinyu\OneDrive\Documents\GitHub\cs520 (took 1.530s)
+2023-03-29T00:01:41.465Z - info: [ui] [AppStore] adding repository at C:\Users\qinyu\OneDrive\Documents\GitHub\cs520 to store
+2023-03-29T00:01:41.494Z - info: [ui] [BranchPruner] Last prune took place 23 hours ago - skipping
+2023-03-29T00:07:09.414Z - info: [ui] No submodules found. Skipping "git submodule status"
+2023-03-29T00:07:14.429Z - info: [ui] [BranchPruner] Last prune took place 23 hours ago - skipping
+2023-03-29T00:07:40.859Z - info: [ui] [AppStore] adding repository at C:\Users\qinyu\OneDrive\Documents\GitHub\CS520 to store
+2023-03-29T00:07:41.258Z - info: [ui] [BranchPruner] Last prune took place 6 minutes ago - skipping
+2023-03-29T00:07:47.670Z - info: [ui] [fetchPushControl] unable to check if branch is potentially pushable
+Error: Not Found
+    at Ft (C:\Users\qinyu\AppData\Local\GitHubDesktop\app-3.2.0\webpack:\[name]\app\src\lib\http.ts:178:11)
+    at Rn.fetchPushControl (C:\Users\qinyu\AppData\Local\GitHubDesktop\app-3.2.0\webpack:\[name]\app\src\lib\api.ts:1396:7)
+    at lr.refreshBranchProtectionState (C:\Users\qinyu\AppData\Local\GitHubDesktop\app-3.2.0\webpack:\[name]\app\src\lib\stores\app-store.ts:1144:39)
+    at lr.repositoryWithRefreshedGitHubRepository (C:\Users\qinyu\AppData\Local\GitHubDesktop\app-3.2.0\webpack:\[name]\app\src\lib\stores\app-store.ts:3940:5)
+2023-03-29T00:07:58.500Z - info: [ui] [BranchPruner] Last prune took place 11 seconds ago - skipping
+2023-03-29T00:08:42.840Z - info: [ui] [Timing] Action 'create commit' for 'qinyuncao/cs520' took 0.382s
+2023-03-29T00:08:47.331Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: cs520 - qinyuncao (has token)
+2023-03-29T00:10:58.754Z - info: [ui] [Timing] Action 'create commit' for 'qinyuncao/cs520' took 0.291s
+2023-03-29T00:13:33.716Z - info: [ui] [Timing] Action 'create commit' for 'qinyuncao/cs520' took 0.751s
+2023-03-29T00:13:34.962Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: cs520 - qinyuncao (has token)
