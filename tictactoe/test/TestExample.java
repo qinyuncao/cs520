@@ -24,7 +24,7 @@ public class TestExample {
 
     @Test
     public void testNewGame() {
-        assertEquals ("1", game.gameModel.player);
+        assertEquals ("1", game.gameModel.getPlayer());
         assertEquals (9, game.gameModel.movesLeft);
     }
 
