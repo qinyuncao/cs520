@@ -10,7 +10,21 @@ public class RowGameModel
     /**
      * The current player taking their turn
      */
-    public String player = "1";
+    public static final String player1 = "1";
+    public static final String player2 = "2";
+
+    private String player = "1";
+
+    public String getPlayer(){
+        return this.player;
+    }
+
+    public void setPlayer(String p){
+        if((p == player1) || (p == player2)){
+            this.player = p;
+        }
+    }
+
     public int movesLeft = 9;
 
     private String finalResult = null;
